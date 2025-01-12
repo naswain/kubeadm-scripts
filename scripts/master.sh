@@ -13,7 +13,7 @@ POD_CIDR="10.244.0.0/16"
 
 # Pull required images
 
-kubeadm config images pull --cri-socket /run/containerd/containerd.sock --kubernetes-version v1.30.0
+kubeadm config images pull --cri-socket /run/containerd/containerd.sock --kubernetes-version v1.30.0 &&
 
 # Initialize kubeadm based on PUBLIC_IP_ACCESS
 
